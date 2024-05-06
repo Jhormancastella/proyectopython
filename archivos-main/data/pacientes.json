@@ -1,0 +1,34 @@
+{
+    "data": {
+        "1081": {
+            "identificacion": "1081",
+            "codEspecialista": "01",
+            "nombreEspecialista": "jjcm",
+            "correoElectronico": "jj@gmail.com",
+            "telefono": "315",
+            "especialidad": "Endocrinolog\u00eda",
+            "jornada": "Tarde",
+            "consultas": []
+        },
+        "1093": {
+            "identificacion": "1093",
+            "codEspecialista": "2",
+            "nombreEspecialista": "jj",
+            "correoElectronico": "jj@gmail.com",
+            "telefono": "570",
+            "especialidad": "Ginecolog\u00eda",
+            "jornada": "Ma\u00f1ana",
+            "consultas": [
+                {
+                    "fecha_cita": "2024-05-08",
+                    "horario_cita": "02:00 PM - 02:20 PM",
+                    "especialista": "4",
+                    "motivo": "dolar cabeza",
+                    "antecedentes": "ninguno",
+                    "alergias": "al acetaminofen",
+                    "consultorio": "Consultorio 401"
+                }
+            ]
+        }
+    }
+}
