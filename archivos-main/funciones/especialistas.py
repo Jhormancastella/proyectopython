@@ -11,7 +11,7 @@ def NewEspecialista():
     """
     gf.borrar_pantalla()
     print(title)
-    try: 
+    
     identificacion = input("Ingrese el Nro de Identificacion: ")
     codEspecialista = input("Ingrese Codigo del especialista: ")
     nombreEspecialista = input("Ingrese Nombre del especialista: ")
@@ -43,7 +43,6 @@ def NewEspecialista():
         'jornada': jornada,
         'consultas': [],
     }
-    except ValueError:
     cfp.AddData('data', identificacion, especialista)
     gf.centroClinico.get('data').update({identificacion: especialista})
     if bool(input('Desea registrar otro especialista (Sí) o Enter (No): ')):
