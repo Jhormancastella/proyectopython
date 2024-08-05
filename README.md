@@ -11,7 +11,7 @@ https://github.com/Jhormancastella/proyectopython.git
 
 ## codigo en base a 
 - principal - `main.py`: Contiene la estructura principal de la progama en python.
-- recursos.
+- recursos `json.py`.
 
 
 Hecho por (jhorman jesus castellanos morales )
